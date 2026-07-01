@@ -12,8 +12,15 @@
 
 ![Release](https://img.shields.io/github/v/release/bebokurd/Clear-WindowsCaches?style=for-the-badge)
 
-![Downloads](https://img.shields.io/github/downloads/bebokurd/Clear-WindowsCaches/total?style=for-the-badge)
+## 📥 Download
 
+<p align="center">
+
+<a href="https://github.com/bebokurd/Clear-WindowsCaches/releases/latest">
+<img src="https://img.shields.io/badge/⬇_Download_WindowsCaches-blue?style=for-the-badge">
+</a>
+
+</p>
 </p>
 
 ## ✨ Highlights
