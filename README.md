@@ -1,179 +1,126 @@
-# 🧹 Clear Windows Caches
+# 🧹 WindowsCaches
 
-A powerful Windows cache cleanup utility written in PowerShell with a modern WPF GUI and command-line support.
+> Fast • Safe • Modern Windows Cache Cleaner
 
-![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-5391FE?logo=powershell)
-![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+<p align="center">
 
-## Features
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge&logo=windows)
 
-* 🗂️ Clean Windows Temp files
-* 🔄 Clean Windows Update cache
-* 🎮 Clean NVIDIA DXCache, GLCache & NV_Cache
-* 🎯 Clean DirectX Shader Cache
-* 🌐 Flush DNS Resolver Cache
-* 🗑️ Empty Recycle Bin
-* ⚡ Clean Windows Prefetch
-* 🧠 Optimize RAM (Working Set Cleaner)
-* 🛡️ Optional System Restore Point
-* 🔍 Scan Only mode (estimate recoverable space)
-* 🖥️ Modern WPF graphical interface
-* 💻 Command-line automation support
-* 🔒 Automatic Administrator elevation
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-5391FE?style=for-the-badge&logo=powershell)
+
+![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+
+![Release](https://img.shields.io/github/v/release/bebokurd/Clear-WindowsCaches?style=for-the-badge)
+
+![Downloads](https://img.shields.io/github/downloads/bebokurd/Clear-WindowsCaches/total?style=for-the-badge)
+
+</p>
+
+## ✨ Highlights
+
+🧹 Clean Windows Temp files
+
+🔄 Clean Windows Update cache
+
+🎮 Clean NVIDIA Shader (DXCache / GLCache / NV_Cache)
+
+🎯 Clean DirectX Shader Cache
+
+🌐 Flush DNS Cache
+
+🗑️ Empty Recycle Bin
+
+⚡ Clean Prefetch
+
+🧠 Optimize RAM (Working Set Cleaner)
+
+🛡️ Optional System Restore Point
+
+💻 Command-line Automation
+
+🎨 Modern WPF User Interface
 
 ---
 
-## Screenshots
+## 📥 Download
 
-> Add screenshots here.
+### Windows
 
-```
-/screenshots/main.png
-/screenshots/scan.png
-```
+| File                  | Description                                        |
+| --------------------- | -------------------------------------------------- |
+| **WindowsCaches.exe** | Standalone executable for Windows 10 & 11 (64-bit) |
 
 ---
 
-## Requirements
+## 🖥️ System Requirements
 
 * Windows 10 or Windows 11
-* PowerShell 5.1 or newer
-* Administrator privileges
+* 64-bit
+* Administrator privileges recommended
 
 ---
 
-## Installation
+## 🚀 Getting Started
 
-Clone the repository:
+1. Download **WindowsCaches.exe**
+2. Right-click → **Run as Administrator**
+3. Select the caches you want to clean
+4. Click **Run Clean**
 
-```powershell
-git clone https://github.com/USERNAME/Clear-WindowsCaches.git
-cd Clear-WindowsCaches
-```
-
-Or download the latest release from GitHub.
+Or use **Scan Only** to preview recoverable disk space.
 
 ---
 
-## Usage
+## 🔥 What's Included
 
-### GUI Mode
+✅ Windows Temp
 
-Simply run:
+✅ User Temp
 
-```powershell
-.\Clear-WindowsCaches.ps1
-```
+✅ Windows Update Cache
 
----
+✅ NVIDIA DXCache
 
-### Scan Only
+✅ NVIDIA GLCache
 
-Estimate recoverable disk space without deleting anything.
+✅ NVIDIA NV_Cache
 
-```powershell
-.\Clear-WindowsCaches.ps1 -ScanOnly
-```
+✅ DirectX Shader Cache
 
----
+✅ DNS Cache
 
-### Silent Mode
+✅ Recycle Bin
 
-```powershell
-.\Clear-WindowsCaches.ps1 -Silent
-```
+✅ Prefetch
+
+✅ RAM Optimizer
 
 ---
 
-### Skip Stopping Windows Update Services
+## 🛠️ Improvements
 
-```powershell
-.\Clear-WindowsCaches.ps1 -NoServiceStop
-```
-
----
-
-### Memory Cleaner
-
-```powershell
-.\Clear-WindowsCaches.ps1 -MemoryClean
-```
+* Initial public release
+* Beautiful WPF interface
+* Faster cleanup engine
+* Better logging
+* Safer cleanup process
+* Optional restore point
+* Automatic Administrator elevation
 
 ---
 
-### Create Restore Point
+## ⚠️ Notes
 
-```powershell
-.\Clear-WindowsCaches.ps1 -CreateRestorePoint
-```
-
----
-
-## Parameters
-
-| Parameter             | Description                               |
-| --------------------- | ----------------------------------------- |
-| `-ScanOnly`           | Performs a dry-run without deleting files |
-| `-Silent`             | Suppresses the exit prompt                |
-| `-NoServiceStop`      | Does not stop Windows Update services     |
-| `-MemoryClean`        | Optimizes RAM working sets                |
-| `-CreateRestorePoint` | Creates a restore point before cleaning   |
+* Files currently in use by Windows are skipped automatically.
+* No system files are deleted.
+* Administrator privileges are required for some cleanup operations.
 
 ---
 
-## What Gets Cleaned
+## ❤️ Support
 
-* Windows Temp
-* User Temp
-* Windows Update Cache
-* NVIDIA DXCache
-* NVIDIA GLCache
-* NVIDIA NV_Cache
-* DirectX Shader Cache
-* DNS Cache
-* Recycle Bin
-* Windows Prefetch
+If you like this project, please consider giving the repository a **⭐ Star**.
 
----
+It helps the project grow and motivates future updates.
 
-## Safety
-
-The script:
-
-* Never deletes Windows system files.
-* Skips files currently in use.
-* Can create a System Restore Point before cleaning.
-* Requires Administrator privileges for protected locations.
-
----
-
-## Author
-
-**Chya Luqman**
-
-Discord Server
-
-https://discord.com/invite/YTeRSG8kER
-
----
-
-## License
-
-Released under the MIT License.
-
----
-
-## Contributing
-
-Pull requests are welcome.
-
-For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## Support
-
-If you enjoy this project, consider giving it a ⭐ on GitHub.
-
-It helps the project grow and reach more users.
+Happy cleaning! 🧹
