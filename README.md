@@ -16,8 +16,7 @@
 
 <p align="center">
 
-<a href="[https://github.com/bebokurd/Clear-WindowsCaches/releases/download/v1.0.0/WindowsCaches.exe)">
-<img src="https://img.shields.io/badge/⬇_Download_WindowsCaches-blue?style=for-the-badge">
+<a href="https://github.com/bebokurd/Clear-WindowsCaches/releases/download/v1.0.0/WindowsCaches.exe"><img src="https://img.shields.io/badge/⬇_Download_WindowsCaches-blue?style=for-the-badge">
 </a>
 
 </p>
